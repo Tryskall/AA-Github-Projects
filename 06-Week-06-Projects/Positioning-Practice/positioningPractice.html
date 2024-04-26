@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Positioning Practice</title>
+        <link rel="stylesheet" href="./positioningPractice.css">
+    </header>
+    <body>
+    <h1>Without any Positioning</h1>
+    <div class="container">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element" id="pink-box">2</div>
+            <div class="element" id="blue-box">3</div>
+        </section>
+    </div>
+    <h1>With Static Positioning</h1>
+    <div class="container">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element static" id="pink-box">2</div>
+            <div class="element" id="blue-box">3</div>
+        </section>
+    </div>
+    <h1>With Relative Positioning</h1>
+    <div class="container">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element relative left20px" id="pink-box">2</div>
+            <div class="element" id="blue-box">3</div>
+        </section>
+    </div>
+    <h1>With Absolute Positioning</h1>
+    <div class="container relative">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element absolute top60px" id="pink-box">2</div>
+            <div class="element" id="blue-box">3</div>
+        </section>
+    </div>
+    <h1>With two Absolutely Positioned Elements</h1>
+    <div class="container relative">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element absolute top60px" id="pink-box">2</div>
+            <div class="element absolute" id="blue-box">3</div>
+        </section>
+    </div>
+    <h1>With Fixed Positioning</h1>
+    <div class="container relative">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element fixed left400px top15percent" id="pink-box">2</div>
+            <div class="element absolute" id="blue-box">3</div>
+        </section>
+    </div>
+    <h1>With Sticky Positioning</h1>
+    <div class="container relative">
+        <section class=".element">
+            <div class="element" id="yellow-box">1</div>
+            <div class="element sticky top60px" id="pink-box">2</div>
+            <div class="element" id="blue-box">3</div>
+        </section>
+    </div>
+</body>
+</html>

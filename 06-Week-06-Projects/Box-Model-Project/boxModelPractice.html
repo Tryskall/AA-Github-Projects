@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Box Model</title>
+        <link rel="stylesheet" href="./boxModelPractice.css">
+    </header>
+    <head>
+        <h1>Box Model</h1>
+    </head>
+    <body>
+        <div class="margin">
+            <p>margin</p>
+            <div class="border">
+                <p>border</p>
+                <div class="padding">
+                    <p>padding</p>
+                    <div class="text">
+                        <p>This is the content of this block element.
+                        It has a specific width set. When the text
+                        reaches the total width of the element, the
+                        browser wraps the content to the next line
+                        within the element.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1>Border Box Model</h1>
+        <section>
+            <div class="box">
+                <p>margin</p>
+                <div class="box1">
+                    <p>border</p>
+                    <div class="box2">
+                        <p>padding</p>
+                        <div class="box3">
+                            <p>This is the content of this block element.
+                            It has a specific width set. When the text
+                            reaches the total width of the element, the
+                            browser wraps the content to the next line
+                            within the element.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="boxParent">
+            <p>Box Parent</p>
+            <div class="boxChild">Box Child</div>
+        </div>
+    </body>
+</html>

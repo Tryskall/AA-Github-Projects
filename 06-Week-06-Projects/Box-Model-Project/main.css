@@ -1,0 +1,68 @@
+html, body {
+    /* DO NOT EDIT */
+    font-family: sans-serif;
+}
+
+/* Phase 1 */
+
+#logo {
+    /* DO NOT EDIT */
+    vertical-align: bottom;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 4px;
+    /* Your code here */
+}
+
+
+h1 {
+    display: inline;
+}
+
+/* Phase 2 */
+
+.box {
+    /* DO NOT EDIT */
+    display: inline-block;
+    vertical-align: top;
+    border: 4px dotted black;
+    background-color: blanchedalmond;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.alternate {
+    width: 96px;
+    height: 96px;
+}
+
+/* Phase 3 */
+
+.footer {
+    /* DO NOT EDIT */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.quote {
+    /* DO NOT EDIT */
+    background-color: lightgray;
+    font-size: larger;
+    width: auto;
+    display: inline-block;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    padding: 40px;
+}
+
+.attribution {
+    /* DO NOT EDIT */
+    display: block;
+    font-style: italic;
+    margin-bottom: 10px;
+}

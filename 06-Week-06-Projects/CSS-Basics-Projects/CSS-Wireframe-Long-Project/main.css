@@ -1,0 +1,114 @@
+/* File: main.css */
+
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#root {
+    font-family: Tahoma;
+}
+
+.nav__upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px 8px 5px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.upper__right {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.upper__right > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 5px;
+}
+
+.nav__upper > button {
+    color: black;
+    padding: 0 0 0 5px;
+}
+
+.nav__lower {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid whitesmoke;
+    padding: 8px 5px 8px 5px;
+}
+
+.nav__lower > a {
+    color: rgb(0, 208, 255);
+}
+
+a > img {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    margin: 5px 125px;
+}
+
+h1 {
+    border: 2px solid whitesmoke;
+}
+
+.content > img {
+    width: 99.5%;
+    border: 2px solid whitesmoke;
+}
+
+.content > p {
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    text-wrap: balance;
+}
+
+.content h2 {
+    text-indent: 12px;
+}
+
+li > a {
+    color: rgb(0, 208, 255);
+}
+
+span {
+    vertical-align: middle;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px 90px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.grid > a {
+    text-decoration: none;
+    font-size: .75em;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 5px 8px 5px;
+    border-top: 2px solid whitesmoke;
+}
+
+.footer__right > a {
+    color: whitesmoke;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+a:hover {
+    background-color: aquamarine;
+    color: black;
+    border-radius: 15%;
+}

@@ -1,0 +1,96 @@
+
+html {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.margin {
+    background-color: yellow;
+    color: black;
+    margin: 15px;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+}
+
+.border {
+    background-color: black;
+    color: whitesmoke;
+    margin: 25px;
+    height: 300px;
+    padding: 2px;
+}
+
+.padding {
+    background-color: blue;
+    color: white;
+    margin: 25px;
+    height: 200px;
+    padding: 2px;
+}
+
+.text {
+    background-color: whitesmoke;
+    color: black;
+    padding: 2px;
+margin: 25px}
+
+section {
+    margin: auto;
+
+}
+
+.box {
+    display: flex;
+    border: 10px solid white;
+    box-sizing: border-box;
+    height: 100px;
+    margin: 50px;
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+}
+.box1 {
+    border: 10px solid rgb(196, 15, 15);
+    box-sizing: border-box;
+    height: 100px;
+    margin: 85px 10px;
+    padding: 25px;
+    width: 250px;
+}
+
+.box2 {
+    border: 10px solid rgb(43, 187, 219);
+    box-sizing: border-box;
+    height: 100px;
+    margin: 50px;
+    padding: 25px;
+    width: 250px;
+}
+
+.box3 {
+    border: 10px solid rgb(223, 34, 192);
+    box-sizing: border-box;
+    height: 100px;
+    margin: 50px;
+    padding: 25px;
+    width: 250px;
+}
+
+.boxParent {
+    margin: 470px 15px;
+    background-color: black;
+    border: 1px solid yellow;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: black;
+}
+
+.boxChild {
+    background-color: #ffff00;
+    width: 100px;
+    height: 280px;
+    margin: -30px auto;
+}

@@ -1,0 +1,16 @@
+{
+    "name": "social-graph-practice",
+    "version": "1.0.0",
+    "description": "",
+    "main": "social.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.4",
+        "colors": "^1.4.0",
+        "mocha": "^10.3.0"
+    }
+}

@@ -1,0 +1,60 @@
+<!-- File: imports.html for Imports - Getting CSS Into Your HTML -->
+<!-- example.html -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+        <link rel="stylesheet" href="/styles/site.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+        <style>html {
+                font-size: 8px;
+                font-family: 'Liu Jian Mao Cao', cursive;
+            }
+            div {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            .bold { font-weight: bold; }
+            .also-bold { font-weight: 700; }
+            a { text-decoration: underline currentColor; }
+            .loud { text-transform: uppercase; }
+            .soft { text-transform: lowercase; }
+            .title { text-transform: capitalize; }
+            .aa-logo {
+                background-color: white;
+                background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+                background-size: cover;
+                height: 100px;
+                width: 100px;
+            }
+        </style>
+    </head>
+    <header>
+        <div id="outer">
+            This is some div text
+        <a href="#"><button style="">This Button is using Liu Jian Mao Cao Font</button></a>
+        <div id="nested">
+            This is some nested div text
+            <a href="#">Go Here</a>
+            <div id="doubly-nested">
+                This is doubly nested text
+                <a href="#"><button>Other Button</button></a>
+            </div>
+        </div>
+    </div>
+    <p class="bold">This is bold.</p>
+    <p class="also-bold">This looks bold.</p>
+    </header>
+    <body>
+        <div>
+            <a href="#">This text is underlined with the same color as the text</a>
+            <p class="loud">THE WIND blows across the sea.</p>
+            <p class="soft">THE WIND blows across the sea.</p>
+            <p class="">THE WIND blows across the sea.</p>
+        </div>
+        <div>
+            <p class="aa-logo">App Academy</p>
+        </div>
+    </body>
+</html>
