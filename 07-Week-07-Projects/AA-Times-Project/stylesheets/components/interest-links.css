@@ -1,0 +1,64 @@
+/* File: interest-links.css */
+
+/* PAGE LINKS BOXES */
+
+.interest-links {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: grid;
+    font-size: 11px;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr .5fr;
+    height: 90px;
+    padding: 10px 0;
+}
+
+.interest-links img {
+    background: orange;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    margin-top: 13px;
+    margin-left: 8px;
+}
+
+.interest-links .story-line,
+.interest-links .stocks {
+    border-right: 1px solid gray;
+}
+
+.interest-links .title {
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.interest-links .story {
+    font-size: 11px;
+}
+
+.interest-links .stocks {
+    display: grid;
+    margin: 2px;
+    padding-left: 8px;;
+}
+
+.interest-links .stock {
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+
+.interest-links .stock-price {
+    color: blue;
+}
+
+.interest-links .temperature {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .interest-links {
+        display: none;
+    }
+}

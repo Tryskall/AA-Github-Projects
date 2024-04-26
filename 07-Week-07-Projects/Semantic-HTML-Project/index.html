@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!-- <header><Label>LEARN THIS STUFF</Label></header> -->
+<html>
+    <head>
+        <nav class="crumbs">
+            <ol>
+                <li class="crumb"><a href="#">Navigation</a></li>
+                <li class="crumb"><a href="#">BAR</a></li>
+                <li class="crumb">Across the Top</li>
+            </ol>
+        </nav>
+        <title>My HTML Cheat Sheet</title>
+        <link rel="icon" href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/sample-icon.png" />
+    </head>
+    <body>
+        <link rel="stylesheet" href="style.css">
+        <h1>My HTML Cheat Sheet</h1>
+        <h2>Headings</h2>
+        <p>Headings from `h1` to `h6` identify blocks and sections.</p>
+        <h2>Paragraphs</h2>
+        <p>Paragraphs of text go in `p` tags</p>
+        <h2>Lists</h2>
+        <h3>Unordered Lists</h3>
+        <p>
+            Unordered lists are marked with bullet points and go in `ul` tags.
+            Each list item goes in a `li` tag.
+        </p>
+        <h4>Types of lists:</h4>
+        <ul>
+            <li>Unordered lists (`ul`)</li>
+            <li>Ordered lists (`ol`)</li>
+        </ul>
+        <h3>Ordered Lists</h3>
+        <p>
+            Ordered lists are numbered and go in `Ol` tags.
+            Each list item goes in an `li` tag.
+        </p>
+        <h4>Polya's Problem Solving Framework</h4>
+        <ol>
+            <li>Understand the problem</li>
+            <li>Come up with a plan</li>
+            <li>Carry out the plan</li>
+            <li>Go back and improve your solution</li>
+        </ol>
+
+    <h2>Anchors (i.e. links)</h2>
+    <p>
+        Anchor tags create links to other pages.
+        The URL goes in the `href` attribute.
+        <a href="https://duckduckgo.com">
+            Go to DuckDuckGo to search for more information.
+        </a>
+    </p>
+    <p>
+        Setting `target="_blank"` will open the link in a new window. See
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+            MDN
+        </a>
+        for more details
+    </p>
+    <h2>Images</h2>
+    <p>
+        You can use the img tag to add images to your page.
+        <img src="http://wanderlord.com/wp-content/uploads/2015/11/Lemur-5-150x150.jpg" alt="A cute lemur">
+    </p>
+    <h2>Tables</h2>
+    <p>Tables in HTML are great for displaying tabular data, such as an address book or
+        a list of product descriptions and prices. Although tables are good for keeping
+        things organized, tables should only be used for displaying data, not for
+        defining the layout of a page.
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Insect</th>
+                <th scope="col">Family</th>
+                <th scope="col">Fact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Ladybug</th>
+                <td>Coccinelledae</td>
+                <td>Can eat more than 5,000 insects!</td>
+            </tr>
+            <tr>
+                <th scope="row">Fruit Flies</th>
+                <td>Drosophilidae</td>
+                <td>First Living creatures in outer space!</td>
+            </tr>
+            <tr>
+                <th scope="row">Caterpillars</th>
+                <td>Heterobathmiidae</td>
+                <td>Have 12 eyes!</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>I had no ideas!</td>
+                <td>Those are neat!</td>
+            </tr>
+        </tfoot>
+    </table>
+    <label for="myFruit">What's your favorite fruit?</label>
+    <input type="text" name="myFruit" id="myFruit" list="mySuggestion" />
+<datalist id="mySuggestion">
+  <option>Apple</option>
+  <option>Banana</option>
+  <option>Blackberry</option>
+  <option>Blueberry</option>
+  <option>Lemon</option>
+  <option>Lychee</option>
+  <option>Peach</option>
+  <option>Pear</option>
+</datalist>
+    <article class="'forecast">
+        <h1>Weather forcast for Seatle</h1>
+        <article class="day-forcast">
+            <h2>17 February 2024</h2>
+            <p>Rain</p>
+        </article>
+        <article class="day-forcast"><h2>18 February 2024</h2>
+        <p>Periods of rain</p>
+        </article>
+        <article class="day-forcast">
+            <h2>19 February 2024</h2>
+            <p>Heavy rain.</p>
+        </article>
+    </article>
+    <nav>other links</nav>
+    <form action="my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" name="user_name" id="name" placeholder="Name">
+            </li>
+            <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" placeholder="Email">
+            </li>
+            <li>
+                <label for="msg">Message:</label>
+                <textarea name="user_message" id="msg" cols="30" rows="10" placeholder="enter your message here"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Send Your Message</button>
+            </li>
+        </ul>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Form Wtih Fieldset</legend>
+            <p>
+                <input type="checkbox" name="size" id="size_1" value="small"/>
+                <label for="size_1">Small</label>
+            </p>
+            <p>
+
+                <label for="size_2"> Medium: <input type="radio" name="size" id="size_2"/></label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_3"/>
+                <label for="size_3">Large</label>
+            </p>
+            <div>
+                <label for="username">Name: <span aria-label="required">*</span></label>
+                <input type="username" name="username" type="text" required />
+            </div>
+        </fieldset>
+    </form>
+    <form>
+        <section>
+            <h2>Contact Information</h2>
+            <fieldset>
+                <legend>Title</legend>
+                <ul>
+                    <li>
+                        <label for="title_1">
+                            <input type="radio" id="title-1" name="title" value="A" />
+                            Ace
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_2">
+                            <input type="radio" name="title" id="title_2" value="K" />
+                            King
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_3">
+                            <input type="radio" name="title" id="title_3" value="Q" />
+                            Queen
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p>
+                <label for="name">
+                    <span>Name: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" name="username" id="name" required />
+            </p>
+            <p>
+                <label for="mail">
+                    <span>Email: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="email" name="usermail" id="mail" required />
+            </p>
+            <p>
+                <label for="pwd">
+                    <span>Password:  </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="password" name="password" id="pwd" required />
+            </p>
+        </section>
+        <section>
+            <h2>Payment Information</h2>
+            <p>
+                <label for="card">
+                    <span>Card Type:</span>
+                </label>
+                <select name="usercard" id="card">
+                    <option value="vise">Visa</option>
+                    <option value="mc">Mastercard</option>
+                    <option value="amex">American Express</option>
+                </select>
+            </p>
+            <p>
+                <label for="number">
+                    <span>Card Number:</span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input
+                    type="tel"
+                    name="cardnumber"
+                    id="number"
+                    required
+                    placeholder="0000-0000-0000" />
+            </p>
+            <p>
+                <label for="expiration">
+                    <span>Expiration Date:</span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input
+                    type="text"
+                    name="expiration"
+                    id="expiration"
+                    required
+                    placeholder="MM/YY"
+                    pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$" />
+            </p>
+        </section>
+        <section>
+            <p>
+                <button type="submit">Validate the Payment</button>
+            </p>
+        </section>
+    </form>
+
+
+    <footer><a href="aboutUsPage">about us</a>     <a href="contactUsPage">contact us</a>     <a href="mainMenuPage">click this     menu</a></footer>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    display: flexbox;
+    background-color: aquamarine;
+}
+
+.profile {
+    margin: 0;
+    padding: 0.5rem;
+    border-radius: 12%;
+}
+
+.profile-picture {
+    border: 2em solid black;
+    border-radius: 50%;
+}
+
+.address {
+    font-family: Tahoma;
+    font-style: italic;
+}
+
+.contact {
+    font-family: 'Tahoma';
+    font-style: italic;
+}
+
+.categories {
+    font-style: oblique;
+}
+
+.footer {
+    display: inline-block;
+    width: 90%;
+}
+
+.footer-3-wide {
+    display: inline;
+    border-top: 3em;
+}
+
+div {
+    border: 2px solid black;
+}

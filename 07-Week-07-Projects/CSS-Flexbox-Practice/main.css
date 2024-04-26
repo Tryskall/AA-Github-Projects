@@ -1,0 +1,128 @@
+/* File: main.css */
+
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.example1 {
+    width: 200px;
+    height: 200px;
+    background-color: palegoldenrod;
+    border: solid white 6px;
+    font-size: 42pt;
+
+    /* Phase 1 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    box-shadow: inset 2px 2px black,
+    inset -.05em -0.05em black;
+}
+
+.example2 {
+    border: dashed grey 1px;
+    border-radius: 16px;
+    padding: 16px;
+
+    /* Phase 2 */
+    background-color: whitesmoke;
+    color: black;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.example2 label {
+    margin-bottom: 8px;
+}
+
+.example2 > button {
+    padding: 6px;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.example2 input {
+    font-size: 24px;
+    background-color: rgb(15, 138, 136);
+    color: lightcyan;
+    border: none;
+    box-shadow:
+        inset 3px 3px black,
+        inset -3px -3px gray;
+    margin-bottom: 8px;
+}
+
+.example3 {
+    min-width: 550px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.example3 > div {
+    border: solid whitesmoke 2px;
+    background-color: #9999ff;
+    border-radius: 25px;
+    padding: 12px;
+
+    /* Phase 3 */
+    flex: 1;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+div blockquote {
+    text-align: left;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.example3 .author {
+    align-self: flex-end;
+    margin-top: 8px;
+}
+
+.example4 {
+    /* Phase 4 - Part 1 of 2 */
+    display: inline-flex;
+}
+
+.sidebar {
+    background-color: #E8EFF0;
+    padding: 8px;
+
+    /* Phase 4 - Part 2 of 2 */
+    border-collapse: collapse;
+}
+
+.div-border {
+    border: 5px solid black;
+    width: 50px;
+}
+
+.example4 button {
+    background-color: #E8EFF0;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.content-area {
+    background-color: #E8EFF0;
+    color: black;
+    padding: 8px;
+}
+
+blockquote {
+    font-family: sans-serif;
+    justify-content: left;
+}
+
+blockquote:first-letter {
+    font-size: 18pt;
+}

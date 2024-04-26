@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+.title {
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(107, 235, 244);
+}
+.top-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.a-no-underline {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px;
+    font: small-caps bold 24px/1 sans-serif;
+    text-shadow: 2px 2px rgb(107, 235, 244);
+}
+.center-text {
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   justify-items: center;
+}
+body{
+    font-family: system-ui;
+    font-size: 1.125rem;
+    padding: 2rem 3rem;
+    background-color: hsl(198, 67%, 65%);
+    align-items: center;
+}
+.logo {
+    width: 75px;
+    opacity: 50%;
+    border-radius: 30px 100px / 180px;
+
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.card_content {
+    place-items: center;
+    text-align: center;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 50rem;
+    margin-inline: auto;
+}
+
+.image-gallery > .card {
+    width: 100%;
+    aspect-ratio: 1 / 1.7;
+    /* object-fit: cover; */
+
+    transition:
+        scale 2200ms ease,
+        opacity 1.s linear;
+}
+
+.image-gallery:has(.card:hover) .card:not(:hover) {
+border: 8px solid black;
+scale: .8;
+opacity: .4;
+}
+.appstore-link {
+    width: 100%;
+}
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin: 0 5px;
+}
+.not-available {
+    font-size: 10px;
+}
+.one {
+    background-color: rgb(255, 145, 0);
+    padding-bottom: 13px;
+}
+.two {
+    background-color: rgb(240, 216, 233);
+    padding-bottom: 28px;
+    padding-top: 27px;
+}
+.three {
+    background-color: rgb(37, 126, 134);
+    padding-top: 29px;
+    padding-bottom: 3px;
+}
+.four {
+    background-color: rgb(196, 240, 196);
+    padding-bottom: 21px;
+}
+.five {
+    background-color: aliceblue;
+    padding-bottom: 19px;
+}
+.six {
+    background-color: rgb(244, 59, 148);
+    padding-bottom: 21px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.a-footer {
+    color: black;
+}
+
+/* section {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+section > div {
+    background-color: hsl(200 205 95%);
+    padding: 1rem;
+    box-shadow: 0 0 1rem hsl(0 0% 0% / 0.15);
+}
+
+div:has(h1) {
+    background-color: hotpink;
+
+} */
+/* div:has(.fancy-p) {
+    color: rgb(228, 129, 16);
+    background-color: white;
+} */
+
+/* div:has(a) {
+    background-color: rgb(232, 138, 51);
+} */
+
+/* .card {
+    box-shadow: 0 0 1rem rgb(166, 15, 212);
+} */

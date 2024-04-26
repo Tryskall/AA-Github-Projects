@@ -1,0 +1,22 @@
+/* File: main-nav.css */
+
+/* PAGE NVAIGATION ROW */
+
+.page-nav {
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.page-nav-links {
+    display: flex;
+    padding: 8px;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .page-nav {
+        display: none;
+    }
+}

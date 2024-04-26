@@ -1,0 +1,67 @@
+html, body {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #2b2d2f;
+    position: relative;
+    height: 75%;
+}
+
+.element {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 280px;
+    font-size: 36px;
+}
+
+#yellow-box {
+    background-color: #ffff00;
+    position: static;
+    bottom: 15px;
+    left: 150px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+#pink-box {
+    background-color: #ff69b4;
+    position: relative;
+    bottom: 0;
+    left: 30%;
+    right: 0;
+    top: 200px;
+    z-index: ;
+}
+
+#blue-box {
+    background-color: #00eeee;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+#red-box {
+    background-color: #ff0000;
+    position: fixed;
+    bottom: 15%;
+    left: 50%;
+    right: 0;
+    top: 30%;
+    z-index: 1;
+}
+
+#orange-box {
+    background-color: #ffa500;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 50px;
+    top: 0;
+    z-index: 1;
+}

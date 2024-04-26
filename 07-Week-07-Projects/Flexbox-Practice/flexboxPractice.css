@@ -1,0 +1,51 @@
+ /* File: flexboxPractice.css */
+
+.page-colors {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.story-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid orange;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2em;
+    flex-direction: row;
+}
+
+.item-1 {
+    order: 1;
+    border: 8px solid rgba(164, 40, 40, 0.925);
+    flex-grow: 25%;
+}
+.item-2 {
+    order: 2;
+    border: 8px solid rgba(209, 95, 24, 0.925);
+}
+.item-3 {
+    order: 3;
+    border: 8px solid rgba(188, 117, 29, 0.925);
+}
+.item-4 {
+    order: 4;
+    border: 8px solid rgba(185, 39, 117, 0.925);
+}
+.item-5 {
+    order: 5;
+    border: 8px solid rgba(173, 29, 176, 0.925);
+}
+.item-6 {
+    order: 6;
+    border: 8px solid rgba(107, 39, 185, 0.925);
+}
+.item-7 {
+    order: 7;
+    border: 8px solid rgba(107, 56, 196, 0.925);
+}
+.item-8 {
+    order: 8;
+    border: 8px solid rgba(107, 56, 196, 0.925);
+}

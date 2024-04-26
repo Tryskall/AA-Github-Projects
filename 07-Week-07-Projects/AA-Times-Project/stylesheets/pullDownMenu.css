@@ -1,0 +1,171 @@
+/* File: pullDownMenu.css */
+
+/* nav {
+    background: var(--background-color);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding-block: 2rem;
+    display: grid;
+    grid-template-columns: 1fr, 4fr;
+    gap: 2rem;
+    text-align: left;
+    color: whitesmoke;
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+    padding-block: 2rem;
+    font-size: 2rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav-list li {
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    margin-inline: 1rem 0;
+    box-shadow: 2px 0 0 var(--background-color);
+    border-radius: 100vw 0 0 100vw;
+}
+
+.nav-list li.active {
+    view-transition-name: nav;
+    display: block;
+    background: var(--body-bgc);
+    position: relative;
+    z-index: -1;
+    border-radius: 100vw 0 0 100vw;
+}
+
+::view-transition-group(nav) {
+    animation-duration: 1s;
+}
+
+.nav-list li.active::before,
+.nav-list li.active::after {
+    --border-radius: 3rem;
+
+    content: "";
+    position: absolute;
+    width: var(--border-radius);
+    height: var(--border-radius);
+    right: 0rem;
+    background: var(--body-bgc);
+}
+
+.nav-list li.active::before {
+    border-radius: 0 var(--border-radius) 0 0;
+    top: calc(var(--border-radius) * -1);
+    box-shadow: 5px 5px 0 5px var(--body-bgc);
+}
+
+.nav-list li.active::after {
+    border-radius: 0 var(--border-radius) 0 0;
+    top: calc(var(--border-radius) * -1);
+    box-shadow: 5px -5px 0 5px var(--body-bgc);
+}
+
+.nav-list li:nth-child(1) a {
+    view-transition-name: test;
+}
+
+.nav-list li:nth-child(2) a {
+    view-timeline-name: test-2;
+}
+
+.nav-list li:nth-child(3) a {
+    view-transition-name: test-3;
+} */
+
+/* drop down menu styles */
+
+/* .nav-list li::after {
+    bottom: 0;
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav > a {
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+}
+
+nav a:hover {
+    color: #38a4a9;
+}
+
+.nav-toggle:checked ~ nav {
+    transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: whitesmoke;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+} */

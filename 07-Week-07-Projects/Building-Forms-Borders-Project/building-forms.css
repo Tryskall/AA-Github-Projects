@@ -1,0 +1,121 @@
+.box {
+    border: 10px solid black; /* Applies to all 4 sides */
+    box-sizing: border-box; /* Retains Height&Width to include border & padding */
+    height: 100px; /* Content's height */
+    margin: 50px; /* Applies to all 4 sides */
+    padding: 25px; /* Applies to all 4 sides */
+    width: 250px; /* Content's width */
+}
+.box-1 {
+    /* One value applies to all four sides. */
+    padding: 3em;
+    margin: 10%;
+}
+.box-2 {
+    /* Two values: top & bottom | left & right */
+    padding: 20% 5%;
+    margin: 0 2em;
+}
+.box-3 {
+    /* Three values; Top | left & right | bottom. */
+    padding: 15px 10px 20px;
+    margin: 30px 0 15px;
+}
+.box-4 {
+    /* Four values: top | right | bottom | left */
+    padding: 0 10px 2em 1em;
+    margin: 10% 20px 10px 5%;
+}
+.box-5 {
+    /* Global values */
+    padding: inherit; /* OR initial OR unset */
+    margin: inherit;
+}
+.box-parent {
+    display: flex-box;
+    background-color: #000000; /* Black */
+    color: white;
+    width: 450px;
+    height: 1200px;
+    margin: 0 auto;
+    border: 1rem ridge red;
+}
+.box-child {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ffff00; /* Yellow */
+    width: 375px;
+    height: 52px;
+    padding: 10px; /* Applies to all four sides. */
+    margin: 25px 25px; /* Centers element horizontally. */
+    padding: 5px;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    background-color: aquamarine;
+    align-content: center;
+    justify-content: center;
+}
+.element {
+    width: 200px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+#yellow-box {
+    display: flex;
+    background-color: #ffff00;
+    color: black;
+    border: 8px ridge orangered;
+    align-content: center;
+    justify-content: center;
+}
+#orange-box {
+    background-color: #ff8c69;
+    color: black;
+    border: 8px double yellow;
+    align-content: center;
+    justify-content: center;
+}
+#blue-box {
+    background-color: #00eeee;
+    position: relative;
+    color: black;
+    border: 8px dashed rgb(49, 63, 185);
+    align-content: center;
+    justify-content: center;
+}
+#green {
+    display: flex;
+    background-color: rgb(90, 205, 90);
+    color: black;
+    border: 9px ridge purple;
+
+
+}
+#purple {
+    display: flex;
+    background-color: purple;
+    color: white;
+    position: relative;
+    color: white;
+    border-top: 8px dashed orange;
+    border-right: 8px double orangered;
+    border-bottom: 8px ridge red;
+    border-left: 8px solid rgb(179, 19, 107);
+    padding-left: 60px;
+    /* align-content: center;
+    justify-content: center; */
+}
+.text-area {
+    width: 350px;
+    height: 200px;
+    margin: 30px;
+}
+#submit {
+    display: block;
+    background-color: green;
+    color: white;
+}

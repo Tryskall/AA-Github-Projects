@@ -1,0 +1,117 @@
+html {
+    background-color: black;
+    color: white;
+}
+header {
+    margin: 10px -40px 0;
+}
+
+.top-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+#no-U {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flexbox;
+    flex-direction: row;
+    margin: 15px 50px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 155, 218);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.lorem {
+    padding-left: 15px;
+    border: 2px solid white;
+    align-items: center;
+    justify-content: center;
+    text-wrap: balance;
+}
+
+.bi-line {
+    display: flex;
+    margin: 5px 50px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#facebook {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#twitter {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#share {
+    height: 30px;
+    padding-top: 5px;
+}
+
+#container {
+    background-color: rgba(128, 0, 0, 0.405);
+    max-width: max-content;
+}
+
+#element {
+    max-width: 100%;
+}
+
+.indent {
+    margin: 0 50px 0;
+}
+
+.links {
+    padding: 5px 15px 5px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.lists {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div-grid {
+    border: 2px solid white;
+    padding: 5px;
+    display: flex;
+    /* float: left; */
+    margin-right: 0.5em;
+}
+
+#appacademyio-logo {
+    height: 25px;
+    margin-top: 7px;
+}

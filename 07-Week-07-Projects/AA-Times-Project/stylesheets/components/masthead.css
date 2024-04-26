@@ -1,0 +1,146 @@
+/* File: masthead.css */
+
+/* MASTHEAD AREA BOX 2fr 4fr 2fr */
+
+.masthead__area {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    grid-template-areas:
+        "menu-search . action-buttons"
+        ". little-technologies ."
+        "date logo paper";
+}
+
+@media screen and (max-width: 1035px) {
+    .buttons-nav-right {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .masthead__area {
+        display: grid;
+        grid-template-columns: 2fr 5fr 2fr;
+    }
+    .buttons-nav-right {
+        display: none;
+    }
+}
+
+/* TOP ROW OF MASTHEAD */
+/* LEFT SIDE - GRID AREA menu-search */
+
+.masthead__menu-search {
+    align-items: center;
+    display: flex;
+    font-size: 11px;
+    grid-area: menu-search;
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.menu-icon,
+.search-icon,
+.settings-icon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 9px 7px;
+}
+
+.search-icon > i {
+    padding-right: 8px;
+}
+
+.menu-icon:hover,
+.search-icon:hover,
+.settings-icon:hover {
+    background-color: var(--icon-hover-color);
+}
+
+
+/* RIGHT SIDE - GRID AREA action-buttons */
+
+.masthead__action-buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: flex-end;
+    grid-area: action-buttons;
+    justify-content: end;
+    padding: 5px 20px 5px 0;
+}
+
+/* SECOND ROW OF MASTHEAD empty little-technologies empty */
+
+.masthead__little-technologies {
+    background-color: whitesmoke;
+    font-size: 10px;
+    grid-area: little-technologies;
+    position: relative;
+    text-transform: uppercase;
+    top: 2px;
+}
+
+.masthead__little-tech-container {
+    align-items: center;
+    border: 2px solid var(--light-gray);
+    border-bottom: none;
+    color: var(--dark-gray);
+    display: flex;
+    justify-content: space-around;
+}
+
+/* BOTTOM ROW OF MASTHEAD date logo paper */
+/* BOTTOM ROW LEFT SIDE date */
+
+.masthead__date {
+    align-items: flex-end;
+    display: flex;
+    font-size: 11px;
+    grid-area: date;
+    justify-content: left;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.masthead__date,
+.masthead__logo,
+.masthead__paper {
+    border-bottom: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    padding-bottom: 8px;
+}
+
+/* BOTTOM ROW MIDDLE logo */
+
+.masthead__logo {
+    grid-area: logo;
+}
+
+.aa-times {
+    align-items: center;
+    display: flex;
+    font-family: "Old London";
+    font-size: 45px;
+    justify-content: center;
+    padding: 25px 0;
+}
+
+@media screen and (max-width: 640px) {
+    .aa-times {
+        font-size: 40px;
+    }
+}
+
+
+/* BOTTOM ROW RIGHT SIDE paper */
+
+.masthead__paper {
+    align-items: flex-end;
+    display: flex;
+    font-size: 11px;
+    grid-area: paper;
+    justify-content: right;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="building-forms.css">
+        <meta charset="utf-8">
+        <title>Building Forms</title>
+    </head>
+    <body>
+        <h1>Building HTML Forms</h1>
+        <form action="form-handling-url" method="post" >
+        <fieldset class="box-parent ">
+            <legend> Add USER </legend>
+          <div class="box-child" id="yellow-box">
+            <label for="firstname"></label>First Name</label><br>
+        <input type="name" id="firstname" placeholder="Enter first name here"/>
+          </div><br>
+          <div class="box-child" id="orange-box">
+          <label for="last_name"></label>Last Name</label>
+          <input type="name" id="lastname" placeholder="Enter last name here">
+          </div><br>
+          <div class="box-child" id="blue-box">
+          <label for="email"></label>Email Address</label>
+          <input type="email" id="email" placeholder="Email@Address.com">
+          </div><br>
+          <div class="container" id="green">
+            <div class="element" id="green">
+          <label for="status">Status</label>
+          <select name="user_name" id="status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+            </div>
+            <div class="element" id="green">
+            <label for="today">Current Date</label>
+            <input type="date" name="today" id="today">
+          </div>
+        </div><br>
+        <div class="container" id="purple">
+          <p>Choose your favorite programming language</p><br>
+          <div class="element" id="pink-box">
+            <input type="radio" id="HTML" name="html" value="HTML">
+            <label for="HTML">HTML</HTML></label><br>
+            <input type="radio" id="CSS"n name="CSS" value="CSS">
+            <label for="CSS">CSS</label><br>
+            <input type="radio" id="javaScript" name="js" value="js">
+            <label for="javaScript">javaScript</label></div><br>
+          </div><br>
+          <p class="box-child" id="yellow-box">⬇ Add Comments Here ⬇</p><br>
+          <div class="box1" id="orange-box">
+            <textarea class="text-area" name="comments" id="yellow-box" placeholder="Fill This Box with Stuff" cols="30" rows="10"></textarea>
+          </div><br>
+          <div class="element" id="green">
+            <input type="checkbox" id="signup" name="signup">
+            <label for="signup">Sign up for Newsletter</label>
+          </div><br>
+          <div class="element" id="green">
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Agree to terms and conditions</label>
+          </div><br>
+          <div>
+            <button type="submit" id="submit">Submit</button>
+          </div><br>
+       </form>
+    </body>
+</html>

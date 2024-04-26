@@ -1,0 +1,78 @@
+/* File: gridLayout.css for grid layout practicen */
+
+html {
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+.boards__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "one two three four"
+    "five six seven eight"
+    "nine ten";
+}
+
+.board-1 {
+    height: 250px;
+    width: 250px;
+    grid-area: one;
+    background-image: url(./board-backgrounds/board-1-background.jpg);
+}
+.board-2 {
+    height: 250px;
+    width: 250px;
+    grid-area: two;
+    background-image: url(./board-backgrounds/board-2-background.jpg);
+}
+.board-3 {
+    height: 250px;
+    width: 250px;
+    grid-area: three;
+    background-image: url(./board-backgrounds/board-3-background.jpg);
+}
+.board-4 {
+    height: 250px;
+    width: 250px;
+    grid-area: four;
+    background-image: url(./board-backgrounds/board-4-background.jpg);
+}
+.board-5 {
+    height: 250px;
+    width: 250px;
+    grid-area: five;
+    background-image: url(./board-backgrounds/board-5-background.jpg);
+}
+.board-6 {
+    height: 250px;
+    width: 250px;
+    grid-area: six;
+    background-image: url(./board-backgrounds/board-6-background.jpg);
+}
+.board-7 {
+    height: 250px;
+    width: 250px;
+    grid-area: seven;
+    background-image: url(./board-backgrounds/board-7-background.jpg);
+}
+.board-8 {
+    height: 250px;
+    width: 250px;
+    grid-area: eight;
+    background-image: url(./board-backgrounds/board-8-background.jpg);
+}
+.board-9 {
+    height: 250px;
+    width: 250px;
+    grid-area: nine;
+    background-image: url(./board-backgrounds/board-9-background.jpg);
+}
+.board-10 {
+    height: 250px;
+    width: 250px;
+    grid-area: ten;
+    background-image: url(./board-backgrounds/board-10-background.jpg);
+}

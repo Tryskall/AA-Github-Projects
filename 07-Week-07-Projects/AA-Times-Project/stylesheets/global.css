@@ -1,0 +1,87 @@
+/* File: global.css */
+
+@font-face {
+  font-family: "Old London";
+  src: url("../fonts/OldLondon.ttf")
+  format(truetype);
+}
+
+:root {
+  --background-color: whitesmoke;
+  --text-color: black;
+  --icon-hover-color: var(--light-gray);
+  --button-color: #6288a5;
+  --button-hover-color: #326891;
+  --button-border-radius: 3px;
+  --button-font: "arial, helvetica, sans-serif";
+  --button-font-size: 11px;
+  --button-padding: 7px 9px;
+  --button-margin: 0 4px;
+  --button-font-weight: bold;
+  --button-text: uppercase;
+  --button-color-transition: .3s;
+  --h1-margin-bottom: 10px;
+  --h1-padding-bottom: 10px;
+  --h1-font-size: 28px;
+  --h1-font-style: italic;
+  --h1-font-weight: bold;
+  --blue: #326891;
+  --dark-blue: #4d7b9f;
+  --dark-gray: #6f6f6f;
+  --darkest-blue: #265e8b;
+  --gray: #999;
+  --light-blue: #6288a5;
+  --light-gray: #e2e2e2;
+  --lightest-blue: #f0f8fc;
+  --lightest-gray: #f7f7f5;
+  --global-font-size: 12px;
+  --global-font-style: nyt-franklin;
+  --global-text-color: black;
+  --a-hover-text-dec: underline;
+  --p-line-height: 16px;
+}
+
+/* *, *::before, *::after {
+  box-sizing: border-box;
+} */
+
+body {
+  max-width: 1400px;
+  /* margin: auto; */
+  padding: 0 40px;
+  line-height: 1em;
+  font-family: "arial, Helvetica, sans-serif";
+  font-size: 1.25rem;
+  background: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+button {
+  background-color: var(--button-color);
+  border-radius: var(--button-border-radius);
+  color: whitesmoke;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 4px;
+  padding: 7px 9px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+  transition: background-color 0.3s;
+}
+
+@media (max-width: 720px) {
+  body {
+      padding: 1px
+  }
+  button {
+    font-size: 5px;
+    padding: 2px;
+    margin: 0 1px;
+    font-weight: none;
+  }
+}

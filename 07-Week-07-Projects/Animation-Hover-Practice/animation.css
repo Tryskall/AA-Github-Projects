@@ -1,0 +1,86 @@
+@keyframes example {
+  from {background-color: purple;}
+  to {background-color: limegreen;}
+}
+div { /* to set animation */
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 24s;
+}
+.box1 { /* to Set transformation with Hovering effects */
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    justify-items: center;
+    transition:
+        width 4s,
+        height 2s,
+        background-color 4s,
+        border-radius 4s,
+        border-width 4s,
+        transform 4s;
+}
+.box2 { /* to Set transformation with Hovering effects */
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(43, 168, 226);
+    text-align: center;
+    justify-items: center;
+    transition:
+        width 4s,
+        height 2s,
+        background-color 4s,
+        border-radius 4s,
+        border-width 4s,
+        transform 4s;
+}.box3 { /* to Set transformation with Hovering effects */
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(214, 226, 43);
+    text-align: center;
+    justify-items: center;
+    transition:
+        width 4s,
+        height 2s,
+        background-color 4s,
+        border-radius 4s,
+        border-width 4s,
+        transform 4s;
+}
+
+.box1:hover { /* Adding hover effect */
+    background-color: magenta;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-width: 50px;
+    transform: rotate(180deg);
+}
+.box2:hover { /* Adding hover effect */
+    background-color: magenta;
+    width: 500px;
+    height: 800px;
+    border-radius: 300%;
+    border-width: 20px;
+    transform: rotate(180deg);
+}
+.box3:hover { /* Adding hover effect */
+    background-color: magenta;
+    width: 100px;
+    height: 500px;
+    border-radius: 50%;
+    border-width: 80px;
+    transform: rotate(180deg);
+}

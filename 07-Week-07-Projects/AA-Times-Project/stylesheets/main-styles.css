@@ -1,0 +1,15 @@
+/* File: main-styles.css */
+
+@import url("reset.css");
+@import url("global.css");
+@import url("./pullDownMenu.css");
+@import url("./animatedMenuButton.css");
+
+@import url("components/gear-dropdown.css");
+@import url("components/interest-links.css");
+@import url("components/main-content.css");
+@import url("components/main-nav.css");
+@import url("components/masthead.css");
+@import url("components/search-modal.css");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap')

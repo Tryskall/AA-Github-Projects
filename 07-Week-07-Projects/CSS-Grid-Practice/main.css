@@ -1,0 +1,89 @@
+html, body, div {
+    /* PAGE SETTINGS - DO NOT EDIT */
+    font-family: sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+/* ====== */
+
+.grid-container {
+    text-align: center;
+
+    /* Phase 1 */
+    display: grid;
+    width: 100%;
+    grid-template-columns: 3fr auto 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "header header header"
+        "main . sidebar"
+        "footer footer footer";
+    max-width: 100%;
+    margin: 0 auto;
+
+    /* Bonus Phase */
+}
+.item-1 {
+    background-color: #87a7b3; /* steel blue */
+    color: black;
+
+    /* Phase 1 */
+    grid-area: header;
+    border-bottom: 15px solid antiquewhite;
+}
+.item-2 {
+    background-color: #e1f1dd; /* light sea green */
+    color: black;
+
+    /* Phase 1 */
+    grid-area: main;
+
+}
+.item-3 {
+    background-color: #cdc7be; /* grey */
+    color: black;
+
+    /* Phase 1 */
+   grid-area: sidebar;
+}
+.item-4 {
+    background-color: #766161; /* brown */
+    color: antiquewhite;
+
+    /* Phase 1 */
+    grid-area: footer;
+    border-top: 15px solid antiquewhite;
+}
+
+.divider {
+    background-image: linear-gradient(to right, #e1f1dd, #cdc7be);
+
+    /* Bonus Phase */
+    width: 100px;
+    padding: 0;
+}
+
+/* ====== */
+
+.grid-container-flow {
+    border: solid #87a7b3 2px;
+    background-color: antiquewhite;
+    color: black;
+    margin: 20px;
+
+    /* Phase 2 */
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(3, 50px);
+    max-width: 100%;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container-flow > div {
+    background-color: antiquewhite;
+    color: black;
+}
