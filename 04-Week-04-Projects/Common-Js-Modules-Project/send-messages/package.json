@@ -1,0 +1,11 @@
+{
+    "name": "send-messages",
+    "version": "1.0.0",
+    "description": "modules import and export",
+    "main": "./send-messages/give-message-to-mrs-potato.js",
+    "scripts": {
+      "start": "node ./send-messages/give-message-to-mrs-potato.js"
+    },
+    "author": "Parrish",
+    "license": "MIT"
+  }

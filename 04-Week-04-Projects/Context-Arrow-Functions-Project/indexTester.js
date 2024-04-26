@@ -1,0 +1,1 @@
+const greetAfterNameChange = (changeName, newName) => console.log(`Hi my name is ${changeName(newName)}`);
