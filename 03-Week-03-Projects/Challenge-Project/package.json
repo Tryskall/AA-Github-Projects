@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chai": "^4.3.10",
+    "chai-spies": "^1.1.0",
+    "colors": "^1.4.0",
+    "mocha": "^10.2.0"
+  }
+}
